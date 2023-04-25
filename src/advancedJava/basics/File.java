@@ -1,4 +1,4 @@
-package oops.basics;
+package advancedJava.basics;
 
 import java.time.LocalDateTime;
 
@@ -7,11 +7,13 @@ public class File {
     private String contents;
     private LocalDateTime dateOfCreation;
     private int size;
+    public static int count;
 
     public File(String absolutePath) {
         this.absolutePath = absolutePath;
         this.dateOfCreation = LocalDateTime.now();
         this.contents = "";
+        count++;
     }
 
     public void addContent(String content) {
