@@ -1,5 +1,6 @@
 package design.libraryManagementSystem.searcher.impl;
 
+import design.libraryManagementSystem.book.BookCopy;
 import design.libraryManagementSystem.searcher.BookSearcher;
 
 import java.util.List;
